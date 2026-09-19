@@ -1,0 +1,11 @@
+replicaCount: 2
+
+image:
+  repository: 503718465421.dkr.ecr.ca-central-1.amazonaws.com/nodejs-eks-cicd
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: LoadBalancer
+  port: 80
+  targetPort: 3000

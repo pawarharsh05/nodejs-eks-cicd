@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-eks-cicd",
+  "version": "1.0.0",
+  "description": "Node.js CI/CD deployment on AWS EKS using Docker and Helm",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
